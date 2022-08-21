@@ -1,0 +1,11 @@
+@import "../../app.scss";
+.home {
+    background-color: var(--main-color);
+
+    @include tablet {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+}

@@ -1,0 +1,42 @@
+:root {
+  --main-color: #0b0b0b;
+}
+
+.app {
+  font-family: "Noto Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.watch {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+.watch .back {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 80px;
+  left: 150px;
+  color: white;
+  cursor: pointer;
+  z-index: 2;
+}
+@media (max-width: 898px) {
+  .watch .back {
+    top: 15%;
+    left: 5px;
+    font-size: 30px;
+  }
+}
+.watch .video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=watch.css.map */
